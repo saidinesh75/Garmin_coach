@@ -1,0 +1,20 @@
+# Personal data, local configuration, dependencies and generated output
+.coach-local.json
+.venv*/
+data/
+*.sqlite*
+*.db
+*.key
+token.json
+cooldown.json
+local-ai.json
+.env
+.env.*
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+*.zip
+.DS_Store
+releases/
+local-ai-update-backups/
