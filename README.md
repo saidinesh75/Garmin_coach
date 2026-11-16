@@ -1,5 +1,7 @@
 # Garmin Coach — development home
 
+A software which collects data from my garmin watch and gives insights and AI based recommendations.
+
 This Git repository is the authoritative source for future development. It includes the garminAI section using local Qwen3 1.7B through Ollama. Version: **0.3.0**.
 
 ## Start the app
@@ -44,7 +46,9 @@ git add garmin_coach tests scripts README.md
 git commit -m "Describe the behavior change"
 ```
 
-Local Git history is configured for this project only. No GitHub account, remote or cloud upload is configured. For a regular off-computer source backup, add a private remote later or save a clean repository checkpoint. Git tracks code, not live data backups.
+GitHub remote `origin` is <https://github.com/saidinesh75/Garmin_coach>. The repository is public; only source code and synthetic tests are tracked. Readings, credentials, local paths, environments and backup bundles remain excluded. Git tracks code, not live data backups.
+
+After reviewing and committing a change, use `git push origin main` to synchronize it. Use `git pull --ff-only` to retrieve remote updates when the local branch has no divergent commits. Publishing future changes still requires user authorization.
 
 To inspect an older version without affecting this one:
 
